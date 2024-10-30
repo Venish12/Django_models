@@ -1,0 +1,19 @@
+pip install virtualenv
+
+virtualenv env
+
+cd path/to/your/project:
+---
+source env/bin/activate
+deactivate
+
+pip install django
+
+---
+django-admin
+(see all command that you can run)
+
+django-admin startproject project_name
+(create core configuration and boiler plate)
+
+python3 manage.py startapp app_name
